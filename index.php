@@ -1,6 +1,6 @@
 <?php
 /**
- *  It excuses is dummy nonsense text generator
+ *  IT excuses is dummy nonsense text generator
  */
 require_once('excuses/ThirdPartyBasedExcuses.php');
 require_once('excuses/FaultBasedExcuses.php');
@@ -14,7 +14,7 @@ $quote = new $excuseClasses[mt_rand(0, count($excuseClasses) - 1)];
 <html lang="sr">
     <head>
         <meta charset="UTF-8">
-        <title>Gospodar Ipsum</title>
+        <title>It excuses</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
